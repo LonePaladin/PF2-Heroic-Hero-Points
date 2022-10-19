@@ -1,0 +1,27 @@
+{
+  "id": "pf2e-heroic-hero-points",
+  "title": "PF2e Heroic Hero Points",
+  "description": "A module to automate a house-rule the author uses.",
+  "url": "https://github.com/LonePaladin/PF2-Heroic-Hero-Points",
+  "version": "0.1",
+  "authors": [
+    {"name": "LonePaladin"}
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+      "compatibility": {
+        "minimum": "4.0.6"
+      }
+    }]
+  },
+  "scripts": [
+	"scripts/heroism.js"
+  ]
+}
